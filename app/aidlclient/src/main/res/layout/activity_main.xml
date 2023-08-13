@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/bindBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bind"/>
+
+    <Button
+        android:id="@+id/unbindBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unbind"/>
+
+    <Button
+        android:id="@+id/randomBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Random number" />
+
+    <Button
+        android:id="@+id/getStudentDetailsBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get student" />
+
+    <Button
+        android:id="@+id/createStudentBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create student" />
+
+    <Button
+        android:id="@+id/getResultBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get result" />
+
+    <Button
+        android:id="@+id/getBundleBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get bundle" />
+
+    <Button
+        android:id="@+id/sendStudentsListBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send students" />
+
+    <Button
+        android:id="@+id/receiveStudentFromBundle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receive student from bundle" />
+
+    <Button
+        android:id="@+id/sendStudentEnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send student enum" />
+
+    <Button
+        android:id="@+id/sendExpression"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send expression" />
+
+    <Button
+        android:id="@+id/sendIntArray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send int array" />
+
+    <Button
+        android:id="@+id/sendStringArray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send string array" />
+</LinearLayout>
